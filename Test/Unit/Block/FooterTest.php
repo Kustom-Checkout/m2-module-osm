@@ -58,7 +58,7 @@ class FooterTest extends TestCase
     protected function setUp(): void
     {
         $mockFactory   = new MockFactory($this);
-        $objectFactory = new TestObjectFactory($mockFactory);
+        $objectFactory = new TestObjectFactory('');
         $storeManager   = $mockFactory->create(StoreManager::class);
 
         $store = $mockFactory->create(Store::class);
