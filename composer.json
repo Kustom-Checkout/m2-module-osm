@@ -1,12 +1,12 @@
 {
-   "name": "vaimo/kustom-module-osm",
+    "name": "kustom/module-osm",
     "description": "Kustom OnSite Messaging Magento 2 Extension",
     "type": "magento2-module",
     "license": "Apache-2.0",
-    "version": "4.0.17",
+    "version": "4.1.0",
     "require": {
-        "vaimo/kustom-module-admin-settings": "^1",
-        "vaimo/kustom-module-base": "11.0.*",
+        "kustom/module-admin-settings": "^1",
+        "kustom/module-base": "^11.0",
         "magento/framework": "^103",
         "magento/module-catalog": "^103.0|^104.0",
         "magento/module-checkout": "^100.1",
@@ -17,6 +17,8 @@
         "psr-4": {
             "Klarna\\Onsitemessaging\\": "."
         },
-        "files": [ "registration.php" ]
+        "files": [
+            "registration.php"
+        ]
     }
 }
